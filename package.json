@@ -1,6 +1,6 @@
 {
   "name": "@olibm/js1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "js1",
   "repository": "https://github.com/olibm/js1",
   "author": "olibm",
@@ -19,6 +19,8 @@
     "lodash.isfunction": "^3.0.9",
     "lodash.set": "^4.3.2",
     "lodash.sortby": "^4.7.0",
+    "lodash.uniq": "^4.5.0",
+    "lodash.uniqby": "^4.7.0",
     "lodash.unset": "^4.5.2",
     "slugify": "^1.3.6",
     "ulid": "^2.3.0"
