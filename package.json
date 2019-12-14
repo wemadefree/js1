@@ -27,6 +27,7 @@
     "lodash.isfunction": "^3.0.9",
     "lodash.ismatchwith": "^4.4.0",
     "lodash.kebabcase": "^4.1.1",
+    "lodash.keyby": "^4.6.0",
     "lodash.mapkeys": "^4.6.0",
     "lodash.mapvalues": "^4.6.0",
     "lodash.maxby": "^4.6.0",
