@@ -20,6 +20,7 @@
     "lodash.escape": "^4.0.1",
     "lodash.escaperegexp": "^4.1.2",
     "lodash.get": "^4.4.2",
+    "lodash.groupby": "^4.6.0",
     "lodash.has": "^4.5.2",
     "lodash.isdate": "^4.0.1",
     "lodash.iselement": "^4.1.1",
