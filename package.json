@@ -24,6 +24,7 @@
     "lodash.flatmap": "^4.5.0",
     "lodash.flatmapdeep": "^4.10.0",
     "lodash.flatmapdepth": "^4.10.0",
+    "lodash.forown": "^4.4.0",
     "lodash.get": "^4.4.2",
     "lodash.groupby": "^4.6.0",
     "lodash.has": "^4.5.2",
