@@ -3,7 +3,6 @@ export { default as camelCase } from 'lodash.camelcase'
 export { default as capitalize } from 'lodash.capitalize'
 export { default as clamp } from 'lodash.clamp'
 export { default as cloneDeep } from 'lodash.clonedeep'
-export { default as conformsTo } from 'lodash.conformsto'
 export { default as defaultsDeep } from 'lodash.defaultsdeep'
 export { default as escapeRegExp } from 'lodash.escaperegexp'
 export { default as forOwn } from 'lodash.forown'
@@ -32,3 +31,9 @@ export { default as trimStart } from 'lodash.trimstart'
 export { default as unsetPath } from 'lodash.unset'
 export { default as upperFirst } from 'lodash.upperfirst'
 export { default as words } from 'lodash.words'
+
+// Hack to fix the missing @types/lodash.conformsto
+import { default as conformsToFn } from 'lodash.conformsto'
+export function conformsTo(object: any, source: any): boolean {
+  return conformsToFn(object, source);
+}
