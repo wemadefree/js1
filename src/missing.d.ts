@@ -1,7 +1,3 @@
-declare module 'lodash.conformsto' {
-  export default function conformsTo(object: any, source: any): boolean
-}
-
 declare module 'slugify' {
   export default function slugify(
     string: string,
