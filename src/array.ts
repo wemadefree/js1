@@ -33,3 +33,21 @@ export function groupByKeyVal(collection: any, iteratee: (r: any) => any) {
   }
   return gbko;
 }
+
+export function toggleArray<T>(array: T[], state: boolean, value: any): T[] {
+  if (!Array.isArray(array)) {
+    throw new Error('toggleArray: first argument must be an array');
+  }
+  if (state) {
+    if (!array.includes(value)) {
+      array.push(value);
+    }
+  }
+  else {
+    let ix = array.indexOf(value);
+    if (ix > -1) {
+      array.splice(ix, 1);
+    }
+  }
+  return array;
+}
