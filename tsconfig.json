@@ -4,7 +4,7 @@
     "lib": [
       "ES2020"
     ],
-    "module": "ES2020",
+    "module": "CommonJS",
     "target": "ES2020",
     "outDir": "lib",
     "declaration": true,
@@ -22,5 +22,5 @@
     "**/*.spec.ts",
     "lib"
   ],
-  "$schema": "https://json.schemastore.org/tsconfig",
+  "$schema": "https://json.schemastore.org/tsconfig"
 }
