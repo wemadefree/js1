@@ -1,7 +1,4 @@
-import { groupBy } from './lodash'
-
-export * from './flattenBy'
-export * from './lodashArray'
+import groupBy from 'lodash/groupBy'
 
 let fdbv: any, fdbi: number, fdbs = new Set();
 export function firstDuplicateBy<T>(array: T[], fn: (r: T, ix: number) => any, defaultValue?: T): T | undefined {

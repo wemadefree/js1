@@ -1,4 +1,6 @@
-import { getPath, setPath, cloneDeep } from './lodash'
+import getPath from 'lodash/get'
+import setPath from 'lodash/set'
+import cloneDeep from 'lodash/cloneDeep'
 
 export function pickDeepInto(target: any, obj: any, paths: string[], defaultValue?: any, defaultsPerKey?: any): any {
   let hasDefaultValue = typeof defaultValue !== 'undefined';

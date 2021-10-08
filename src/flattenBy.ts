@@ -1,4 +1,4 @@
-import { getPath } from './lodash'
+import { getPath } from './lodashMisc'
 
 type flattenByFn = (item: any, ix: number, arr: any[], parent: any, root: any) => any;
 
