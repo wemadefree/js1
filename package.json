@@ -1,6 +1,6 @@
 {
   "name": "@olibm/js1",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "js1",
   "repository": "https://github.com/olibm/js1",
   "author": "olibm",
@@ -16,6 +16,7 @@
     "lib/**/*.d.ts"
   ],
   "dependencies": {
+    "rfdc": "^1.3.0",
     "ulid": "^2.3.0"
   },
   "devDependencies": {
