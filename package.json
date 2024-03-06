@@ -1,9 +1,9 @@
 {
-  "name": "@olibm/js1",
+  "name": "@we-made/js1",
   "version": "2.1.5",
   "description": "js1",
-  "repository": "https://github.com/olibm/js1",
-  "author": "olibm",
+  "repository": "https://github.com/wemadefree/js1",
+  "author": "We Made AS",
   "license": "MIT",
   "main": "lib/index.js",
   "type": "commonjs",

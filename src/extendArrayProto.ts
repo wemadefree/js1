@@ -8,7 +8,7 @@ const installedSym = Symbol('extendArrayProtoJS1');
 
 /** Install and declare globally
 
-import { extendArrayProto, IJs1ExtendedArrayProto } from '@olibm/js1/lib/extendArrayProto'
+import { extendArrayProto, IJs1ExtendedArrayProto } from '@we-made/js1/lib/extendArrayProto'
 
 extendArrayProto(Array.prototype);
 

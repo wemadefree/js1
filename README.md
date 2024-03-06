@@ -1,7 +1,7 @@
 # js1
 
 ```
-yarn add @olibm/js1
+yarn add @we-made/js1
 ```
 
-https://www.npmjs.com/package/@olibm/js1
+https://www.npmjs.com/package/@we-made/js1
